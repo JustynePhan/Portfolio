@@ -80,7 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          to do
+          Here is a collection of my most impactful projects that showcase my technical skills, problem-solving abilities, and creativity. From AI-driven solutions to full-stack web applications, these projects highlight my commitment to delivering innovative and functional software solutions.
         </motion.p>
       </div>
 
