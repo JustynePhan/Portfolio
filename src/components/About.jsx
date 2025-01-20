@@ -51,10 +51,11 @@ const About = () => {
         Welcome to my portfolio! 
         I am a versatile software engineer student specializing in multiple domains, including web development, backend systems, artificial intelligence development, and quality assurance. My work combines technical expertise with creativity to deliver high-quality, innovative solutions.
 
-Each role I take on contributes to my mission of building impactful software while continuing to grow and learn in this fast-paced tech world. Feel free to explore the highlights of my projects and experience within each area!
+        Each role I take on contributes to my mission of building impactful software while continuing to grow and learn in this fast-paced tech world. Feel free to explore the highlights of my projects and experience within each area!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      {/* Responsive container for services */}
+      <div className='mt-20 flex flex-wrap gap-10 justify-center items-center sm:justify-start sm:gap-6'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
@@ -62,5 +63,6 @@ Each role I take on contributes to my mission of building impactful software whi
     </>
   );
 };
+
 
 export default SectionWrapper(About, "about");
